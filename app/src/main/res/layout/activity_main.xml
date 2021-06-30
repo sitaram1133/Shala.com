@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Here"
+        />
+
+
+    <EditText
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:background="@drawable/niceshape"
+        android:id="@+id/etUsername"
+        android:hint="Username"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24" />
+
+    <EditText
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:id="@+id/etpassword"
+        android:hint="Username"
+        android:background="@drawable/niceshape"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24" />
+
+    <Button
+        android:text="Login"
+        android:background="@drawable/nicebtn"
+        android:layout_marginHorizontal="100dp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Aleready Sign up | Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
